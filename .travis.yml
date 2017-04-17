@@ -1,2 +1,9 @@
 language: node_js
 node_js: node
+deploy:
+  provider: heroku
+  api_key:
+    secure: CHGSjigXPXecBaBkebQhjAD4n2iKKE9gFeaXvWHB/BI6aFN/Ji/w2lVoY6LbRMx9tBMzlup2eE8Q4CwWuEmHivYPDYyw96hhF9y780NIG35GAh4tKcmH1jFKe+m6pBkhLMqxJTKtede4sddfjcsbDKG+C+25+u6eUBiEauAtLwwOjTnU/uVSFNADO/2YhU+YZHjzWQT0eZMUIiAnRH5H6TGFYgGDeUUvPCbxGoobrjO1VT0j6jvRYCA0tk+0Bw6ear6Q4Mo3OHdQRY5+tpFFNnWYjGd9vadMxm5O3bIVuOzjn+LnaQABLdAKuMIh+5VHwNcX/hIvZWSeW865LVXzkjkL/EFbOVkJWhi50jFh3u/no8JZfY23oYNgKkE9DE0+sg2QNvuL7mmh2rqEO6Ry7kT28acfccl76wGDwnp+aJi9moH1DFPFGxXzjYHgWStvMCdqVywA7gazuoM4x4h9qOQA6Jo6+8B3IzQC1YW8BD7lz5JfLNO6bE/zhb2U5EF/G5boc3CqmY8tNtRqYKxkWbGr+9/e0e74LAcA3Vg2xey4s2AAbnchB/WTnxYRo179YrdtwGEd6bpVVhlovJOrRbynIPkktvHG6tSrjGw15tC63iAUdaFadvCVFHEo1y7/KqA/e1py3tClA7IVzi88Pguaca/L39ZkmsLpHqLXjMs=
+  app: vast-mountain-94372
+  on:
+    repo: ddigiulio/BlogApi
